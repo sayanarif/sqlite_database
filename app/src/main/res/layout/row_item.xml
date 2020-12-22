@@ -16,7 +16,8 @@
         android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
-        android:layout_toRightOf="@id/myimage"/>
+        android:layout_toRightOf="@id/myimage"
+        android:layout_marginLeft="10dp" />
     <TextView
         android:id="@+id/movieyear"
         android:layout_width="wrap_content"
@@ -26,6 +27,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
         android:layout_toRightOf="@id/myimage"
-        android:layout_below="@id/moviename"/>
+        android:layout_below="@id/moviename"
+        android:layout_marginLeft="10dp" />
 
 </RelativeLayout>

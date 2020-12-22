@@ -41,7 +41,7 @@ public class MovieDetails extends AppCompatActivity {
     public void delete(View view) {
         AlertDialog.Builder alert=new AlertDialog.Builder(this);
         alert.setTitle("Delete item");
-        alert.setMessage("are you sureto delete this item");
+        alert.setMessage("are you sure to delete this item?");
         alert.setPositiveButton("sure", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

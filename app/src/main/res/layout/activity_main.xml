@@ -27,7 +27,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
     <Button
-        android:hint="add"
+        android:hint="View "
         android:onClick="Viewmvie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
